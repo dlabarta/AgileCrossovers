@@ -9,4 +9,4 @@ before_script:
 
 script:
   - phpunit *.php
-  - ./vendor/bin/phpcs --standard=psr2 *.php
+  - ./vendor/bin/phpcs --ignore="./vendor" --standard=psr2 *.php
