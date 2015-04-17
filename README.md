@@ -92,31 +92,10 @@ http://travis-ci.org
 Este proyecto testeado por Travis (ver fichero .travis.yml)
 https://travis-ci.org/dlabarta/AgileCrossovers
 
-Otros que que puede ser interesantes:
 
-Xdebug
-------
-Imprescindible... olvidate de los "var_dump($var)" ;)
 
-http://xdebug.org/
 
-PHP Lint
---------
-Comprueba la sintaxis de nuestro código
-
-http://www.php.net/manual/es/function.runkit-lint.php
-
-PHPMD
------
-Detector de código basura y posibles bugs
-
-http://phpmd.org/
-
-PHPloc
-------
-Para realizar métricas y analizar la estructura del proyecto
-
-https://github.com/sebastianbergmann/phploc
+Otros links interesantes en este repo: https://github.com/francho/TestingLab-php
 
 [Source]: https://betabeers.com/event/coding-dojo-por-agile-barcelona-runroom-878/
 [Agile Aragon Web]:http://agile-aragon.org/
