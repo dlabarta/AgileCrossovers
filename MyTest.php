@@ -14,10 +14,5 @@ class MyTest extends PHPUnit_Framework_TestCase {
     public function testSuma()
     {
         $this->assertTrue(true);
-
-        for($i=0; $i< 10;$i++)
-            echo($i.'-');
-
     }
 }
- 
