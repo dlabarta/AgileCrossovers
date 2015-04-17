@@ -1,3 +1,29 @@
+[![Build Status](https://travis-ci.org/dlabarta/AgileCrossovers.svg?branch=master)](https://travis-ci.org/dlabarta/AgileCrossovers)
+
+Agile CrossOvers – TDD en PHP
+-----------------------------
+
+- Symfony Zaragoza
+    - [Symfony Google Group]
+    - [Symfony Twitter]
+- Agile Aragón
+    - Objetivos
+    - Katas, Dojos, Charlas de Introducción, Cervezas ágiles...
+    - [Agile Aragon Web]
+    - [Agile Aragon Twitter]
+    - [Agile Aragon Google Group]
+- ¿Que vamos a hacer hoy?
+    - Coding Dojo - Kata
+    - Pair Programming
+    - TDD
+    - Formato Randori
+
+[Agile Aragon Web]:http://agile-aragon.org/
+[Agile Aragon Twitter]:https://twitter.com/agilearagon
+[Agile Aragon Google Group]:https://groups.google.com/forum/#!forum/agile-aragon
+[Symfony Google Group]: https://groups.google.com/forum/#!forum/symfony-zaragoza
+[Symfony Twitter]: https://twitter.com/symfony_zgz
+
 MARS ROVERS KATA
 ----------------
 
