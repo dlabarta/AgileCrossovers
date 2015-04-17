@@ -1,5 +1,6 @@
 <?php
 namespace AgileCrossovers;
+
 /**
  * Created by PhpStorm.
  * User: david
@@ -10,10 +11,26 @@ namespace AgileCrossovers;
 class MyTest extends \PHPUnit_Framework_TestCase
 {
     /**
+     * @var MarsRover
+     */
+    private $rover;
+
+    const MOVE_LEFT = 'L';
+
+    public function setUp()
+    {
+        $this->rover = new MarsRover();
+    }
+
+    /**
      *
      */
-    public function testSuma()
+    public function testIsAbleToGetParams()
     {
-        $this->assertTrue(true);
+        $this->rover->command(self::MOVE_LEFT);
+
+        $this->assertEquals($this->rover->getLastCommand(), self::MOVE_LEFT);
+
     }
+
 }
