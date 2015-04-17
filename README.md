@@ -64,9 +64,9 @@ Para los test unitarios
 
 http://www.phpunit.de/
 
-usaremos también el generador de esqueletos de test
+integración con PhpStorm
 
-phpunit-skelgen
+https://www.jetbrains.com/phpstorm/help/testing-php-applications.html
 
 
 PHP_CodeSniffer
