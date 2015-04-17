@@ -1,4 +1,5 @@
 <?php
+namespace AgileCrossovers;
 /**
  * Created by PhpStorm.
  * User: david
@@ -6,7 +7,7 @@
  * Time: 18:25
  */
 
-class MyTest extends PHPUnit_Framework_TestCase
+class MyTest extends \PHPUnit_Framework_TestCase
 {
     /**
      *
