@@ -7,6 +7,7 @@ class MarsRover
     const TURN_RIGHT = 'R';
     const TURN_LEFT = 'L';
     const NORTH = 'N';
+    const WEST = 'W';
 
     private $lastCommand;
     private $position;
@@ -24,12 +25,20 @@ class MarsRover
         {
             if ($this->orientation == self::NORTH)
                 $this->position[1]++;
+            elseif ($this->orientation == 'W') {
+                if ($this->position[0] > 0)
+                    $this->position[0]--;
+            }
             else
                 $this->position[0]++;
         }
         if ($theCommand == self::TURN_RIGHT)
         {
             $this->orientation = 'E';
+        }
+        if ($theCommand == self::TURN_LEFT)
+        {
+            $this->orientation = 'W';
         }
         $this->lastCommand=$theCommand;
     }

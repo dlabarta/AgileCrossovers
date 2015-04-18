@@ -40,11 +40,17 @@ class MyTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->rover->getPosition(), array(0,1));
     }
 
-    public function testGetPositionAfterMovingRightAndMovingForward()
+    public function testGetPositionAfterTurningRightAndMovingForward()
     {
         $this->rover->command(MarsRover::TURN_RIGHT);
         $this->rover->command(MarsRover::MOVE_FORWARD);
         $this->assertEquals($this->rover->getPosition(), array(1,0));
+    }
+
+    public function testLeft() {
+        $this->rover->command(MarsRover::TURN_LEFT);
+        $this->rover->command(MarsRover::MOVE_FORWARD);
+        $this->assertEquals($this->rover->getPosition(), array(0,0));
     }
 
 }
